@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pendaftaran Kursus</title>
+    <link rel="stylesheet" type="text/css" href="Bayar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran Kursus</h1>
+        <form action="https://wa.me/6285721831812" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="umur">Umur:</label>
+            <input type="text" id="umur" name="umur" required>
+            
+            <label for="kursus">Pilih Kursus:</label>
+            <select id="kursus" name="kursus">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="both">HTML & CSS</option>
+            </select>
+            
+            <p id="harga">Harga: </p>
+            
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+
+    <script src="Bayar.js"></script>
+</body>
+</html>
